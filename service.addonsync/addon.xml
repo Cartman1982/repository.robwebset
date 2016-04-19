@@ -7,9 +7,9 @@
 	<extension point="xbmc.service" library="service.py" start="login"/>
 	<extension point="xbmc.python.script" library="default.py"/>
 	<extension point="xbmc.addon.repository" name="robwebset Add-on Repository">
-		<info compressed="true">http://raw.github.com/robwebset/repository.robwebset/addons.xml</info>
-		<checksum>http://raw.github.com/robwebset/repository.robwebset/addons.xml.md5</checksum>
-	<datadir zip="true">http://raw.github.com/robwebset/repository.robwebset</datadir>
+		<info compressed="true">http://raw.github.com/robwebset/repository.robwebset/master/addons.xml</info>
+		<checksum>http://raw.github.com/robwebset/repository.robwebset/master/addons.xml.md5</checksum>
+	<datadir zip="true">http://raw.github.com/robwebset/repository.robwebset/master</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Synchronise Addon Settings Between Different Installations</summary>
