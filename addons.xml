@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.robwebset" name="robwebset Addons" version="1.0.6" provider-name="robwebset">
+	<extension point="xbmc.addon.repository" name="robwebset Addons">
+		<info compressed="false">http://raw.github.com/robwebset/repository.robwebset/addons.xml</info>
+		<checksum>http://raw.github.com/robwebset/repository.robwebset/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/robwebset/repository.robwebset</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repository for robwebset</summary>
+		<description>This repository contains addons written by robwebset that are not in the official repository</description>
+		<disclaimer>The addons in this repository are free and used at your own risk.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="service.addonsync" name="AddonSync" version="1.0.0" provider-name="robwebset">
+	<requires>
+		<import addon="xbmc.python" version="2.20.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.python.script" library="default.py"/>
+	<extension point="xbmc.addon.repository" name="robwebset Add-on Repository">
+		<info compressed="true">http://raw.github.com/robwebset/repository.robwebset/addons.xml</info>
+		<checksum>http://raw.github.com/robwebset/repository.robwebset/addons.xml.md5</checksum>
+	<datadir zip="true">http://raw.github.com/robwebset/repository.robwebset</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Synchronise Addon Settings Between Different Installations</summary>
+		<description lang="en">Keep all Addon settings in sync across all of your installations</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=260802</forum>
+		<source>https://github.com/robwebset/service.addonsync</source>
+	</extension>
+</addon>
+</addons>
