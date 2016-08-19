@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="screensaver.weather" name="WeatherScreensaver" version="1.2.0" provider-name="robwebset">
+<addon id="screensaver.weather" name="WeatherScreensaver" version="1.2.1" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
 	<extension point="xbmc.ui.screensaver" library="default.py"/>
   	<extension point="xbmc.python.script" library="default.py" />
-	<extension point="xbmc.addon.repository" name="robwebset's Repository">
-		<info compressed="false">http://raw.github.com/robwebset/repository.robwebset/master/addons.xml</info>
-		<checksum>http://raw.github.com/robwebset/repository.robwebset/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/robwebset/repository.robwebset/master</datadir>
-	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Weather Screensaver</summary>
 		<description lang="en">Screensaver that displays the weather.</description>

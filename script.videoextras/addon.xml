@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.videoextras" name="VideoExtras" version="2.2.0" provider-name="robwebset">
+<addon id="script.videoextras" name="VideoExtras" version="2.2.1" provider-name="robwebset">
 	<requires>
     	<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -14,11 +14,6 @@
 			<label>32028</label>
 			<visible>!IsEmpty(Window(videos).Property("VideoExtrasShowContextMenu")) + [Container.Content(movies) | Container.Content(episodes) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(musicvideos)]</visible>
 		</item>
-	</extension>
-	<extension point="xbmc.addon.repository" name="robwebset's Repository">
-		<info compressed="false">http://raw.github.com/robwebset/repository.robwebset/master/addons.xml</info>
-		<checksum>http://raw.github.com/robwebset/repository.robwebset/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/robwebset/repository.robwebset/master</datadir>
 	</extension>
   	<extension point="xbmc.addon.metadata">
     	<summary lang="ca">Afegeix vídeos extres a les teves pel·lícules i sèries de televisió.</summary>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.sleep" name="Sleep" version="1.2.0" provider-name="robwebset">
+<addon id="script.sleep" name="Sleep" version="1.2.1" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -7,11 +7,6 @@
 	<extension point="xbmc.python.script" library="default.py"/>
 	<extension point="xbmc.service" library="service.py" start="login"/>
 	<extension point="xbmc.ui.screensaver" library="screensaver.py"/>
-	<extension point="xbmc.addon.repository" name="robwebset's Repository">
-		<info compressed="false">http://raw.github.com/robwebset/repository.robwebset/master/addons.xml</info>
-		<checksum>http://raw.github.com/robwebset/repository.robwebset/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/robwebset/repository.robwebset/master</datadir>
-	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">A TV like sleep timer</summary>
 		<description lang="en">Add improved sleep behaviour to your Kodi system, allowing the system to shut down after a certain amount of time.</description>

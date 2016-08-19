@@ -1,4 +1,4 @@
-v2.0.0 (2016-08-19)
+v2.0.1 (2016-08-19)
 - Check for theaudiodb.com being set in Artist Slideshow
 - Fix radio station name
 - Add option to list and play Sonos Favourites

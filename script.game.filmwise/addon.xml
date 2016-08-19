@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.game.filmwise" name="FilmWise" version="1.1.0" provider-name="robwebset">
+<addon id="script.game.filmwise" name="FilmWise" version="1.1.1" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -9,11 +9,6 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="login"/>
-	<extension point="xbmc.addon.repository" name="robwebset's Repository">
-		<info compressed="false">http://raw.github.com/robwebset/repository.robwebset/master/addons.xml</info>
-		<checksum>http://raw.github.com/robwebset/repository.robwebset/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/robwebset/repository.robwebset/master</datadir>
-	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">FilmWise Invisibles Quiz</summary>
 		<description lang="en">Play the FilmWise weekly invisibles quiz</description>
