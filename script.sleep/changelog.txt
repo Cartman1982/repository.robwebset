@@ -1,3 +1,6 @@
+v1.2.2 (2016-08-26)
+- Allow notifications to be configured better
+
 v1.2.1 (2016-08-19)
 - Moved to robwebset repository
 
